@@ -1,5 +1,7 @@
 const multiply = (a, b) => a * b;
 
+multiply(5,5); // 25
+
 const curriedMultiply = a => b => a * b;
 
 curriedMultiply(5)(5); // 25
